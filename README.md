@@ -2,6 +2,8 @@
 
 A modern, responsive website for Absolutely Delicious restaurant in Sault Ste Marie, Ontario. Features a clean design with tabbed menu navigation, interactive Google Maps integration, and mobile-first responsive design.
 
+**This project serves as both a functional restaurant website and a portfolio example.**
+
 ## 🍽️ About
 
 Absolutely Delicious is a local restaurant specializing in homemade comfort food, serving breakfast and lunch daily. This website showcases their menu, location, hours, and provides easy contact options for customers.
@@ -84,11 +86,12 @@ absolutely-delicious-restaurant/
 ├── index.html              # Main HTML file
 ├── style.css              # Styles and responsive design
 ├── app.js                 # JavaScript functionality
-├── menu_images_overview.png # Menu preview image
 ├── restaurant_menu_data.json # Menu data (for future use)
 ├── README.md              # Project documentation
 ├── .gitignore            # Git ignore file
-└── netlify.toml          # Netlify configuration
+├── netlify.toml          # Netlify configuration
+├── DEPLOYMENT.md         # Deployment instructions
+└── LICENSE               # MIT License
 ```
 
 ## 🔧 Local Development
@@ -112,22 +115,16 @@ absolutely-delicious-restaurant/
    npx live-server
    ```
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
 ## 📝 License
 
-This project is for Absolutely Delicious Restaurant. All rights reserved.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📞 Contact
 
 For website issues or updates, please contact the restaurant directly at (705) 256-8804.
 
+For development questions or portfolio inquiries, visit [Prince Uwagboe](https://prince-uwagboe.netlify.app/).
+
 ---
 
-**Built with ❤️ for Absolutely Delicious Restaurant**
+**Built with ❤️ by [Prince Uwagboe](https://prince-uwagboe.netlify.app/) for Absolutely Delicious Restaurant**
