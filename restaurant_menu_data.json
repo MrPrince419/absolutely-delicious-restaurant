@@ -1,0 +1,93 @@
+{
+  "daily_specials": [
+    {
+      "date": "February 3",
+      "soup": "Slow Roasted Porketta Gravy & Scalloped Potato Veg",
+      "special": "Soup & Tossed Salad",
+      "personal": "$15.95",
+      "dinner_for_two": "$28.95",
+      "additional": "Pasta, Sauce & Meatballs - Family $17.95, Personal $10.50"
+    },
+    {
+      "date": "February 18",
+      "soup": "Chicken Parmesan, Penne Sauce & Garlic Cheese Bun, Soup & Tossed Salad",
+      "personal": "$15.95",
+      "dinner_for_two": "$28.95",
+      "additional": "Beef Vegetable Rice & Creamy Potato Leek"
+    },
+    {
+      "date": "February 25",
+      "soup": "Rosemary Chicken & Mashed Potato Gravy & Mixed Veg & Penne Sauce",
+      "special": "Soup & Tossed Salad",
+      "personal": "$15.95",
+      "dinner_for_two": "$28.95",
+      "additional": "Green Pea in Pork & Tomato Vegetable"
+    },
+    {
+      "date": "March 3",
+      "soup": "Slow Roasted Porketta & Scalloped Potato & Mixed Veg",
+      "special": "Chicken Noodle & Creamy Cauliflower w/ Red Peppers",
+      "personal": "$15.95",
+      "dinner_for_two": "$28.95"
+    },
+    {
+      "date": "March 4",
+      "soup": "Rosemary Chicken & Mashed Potatoes & Mixed Veg & Gravy",
+      "special": "Chicken Parmesan Penne & Sauce & Grilled Garlic Cheese Bun",
+      "personal": "$15.95",
+      "dinner_for_two": "$28.95",
+      "additional": "Tomato Potato Cheddar & Beef Barley"
+    }
+  ],
+  "frozen_takeout_meals": {
+    "description": "Meat pies, chicken pot pies, lasagna, soups, pasta sauce, meatballs, fresh pasta",
+    "note": "Serving breakfast and lunch daily!"
+  },
+  "weekly_specials": {
+    "wednesday_thursday_friday": {
+      "title": "Penne with Homestyle Meatballs",
+      "personal": "$10.50",
+      "family": "$17.95",
+      "deluxe": "With Large Salad, Garlic Bread & 4 Desserts - $35.00"
+    }
+  },
+  "daily_menu": {
+    "wednesday": {
+      "soup": "Perogies with Bacon and Sour Cream",
+      "entree": "Italian Sausage with Sauteed Peppers",
+      "sides": "Choice of soup or tossed salad",
+      "special_notes": "Meat Cheese Lasagna, Garlic Cheese Bun with choice of soup or tossed salad"
+    },
+    "thursday": {
+      "entree": "Slow Roasted Porketta with Gravy",
+      "sides": "Scalloped Potatoes and Vegetables",
+      "soup": "Choice of soup or tossed salad"
+    },
+    "friday": {
+      "entree": "Rosemary Chicken or Chicken Parmesan",
+      "sides": "Choice of Mashed Potatoes and Vegetables or Penne Sauce",
+      "soup": "Choice of soup or tossed salad"
+    }
+  },
+  "freezer_package": {
+    "title": "Freezer Package - $245.00",
+    "description": "Individual/Personal Portions Cooked, Labeled, Frozen and Delivered",
+    "includes": [
+      "4 Chicken Pot Pies",
+      "4 Meat Pies",
+      "4 Shepherd's Pies",
+      "4 Ham & Cheese Quiche",
+      "2 Meat & Cheese Lasagna",
+      "4 Perogies w/ Bacon & Onion (5 per container)",
+      "2 Homemade Soups",
+      "2 Chili"
+    ],
+    "note": "Substitute only one option for another per freezer order! Please place orders one week in advance"
+  },
+  "cash_policy": {
+    "title": "Cash is King",
+    "message": "Cash is our preferred method of payment",
+    "benefits": "With cash we retain 100% of its value. The card processing companies get 0%. The big banks get 0%.",
+    "support": "Support your local independent business by paying by cash and keeping cash alive!"
+  }
+}

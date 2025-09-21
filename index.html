@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolutely Delicious - Homemade Comfort Food | Call (705) 256-8804</title>
+    <meta name="description" content="Absolutely Delicious - Homemade breakfast & lunch in Sault Ste Marie. Call (705) 256-8804 for curbside pickup. Open Tue-Sat 9AM-4PM, Sun 9AM-2PM.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="#hero" class="logo">
+                    <h1>Absolutely Delicious</h1>
+                    <span class="tagline">Homemade Comfort Food</span>
+                </a>
+                <nav class="main-nav">
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#menu" class="nav-link">Menu</a>
+                    <a href="#hours" class="nav-link">Hours</a>
+                    <a href="tel:(705) 256-8804" class="nav-link nav-link--cta">Call Now</a>
+                </nav>
+                <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-overlay">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Fresh Homemade Comfort Food</h2>
+                    <p>Breakfast & Lunch Daily - Made with Love in Sault Ste Marie</p>
+                    <div class="hero-buttons">
+                        <a href="tel:(705) 256-8804" class="btn btn--outline btn--lg">
+                            <span class="btn-icon">📞</span>
+                            Call Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>About Absolutely Delicious</h2>
+                <div class="about-text">
+                    <p>We're your neighborhood spot for homemade comfort food. Every dish is prepared fresh daily using traditional recipes and quality ingredients. From fluffy pancakes to hearty soups, we take pride in creating meals that feel like home.</p>
+                    <p>Located on Great Northern Road in Sault Ste Marie, we serve breakfast and lunch daily with convenient curbside pickup. Our frozen take-home meals let you enjoy our homestyle cooking anytime.</p>
+                </div>
+                
+                <!-- Cash Policy -->
+                <div class="cash-policy">
+                    <h3>💰 Cash is King</h3>
+                    <p>Cash is our preferred method of payment. With cash we retain 100% of its value. Support your local independent business by paying with cash!</p>
+                </div>
+
+                <!-- Reviews -->
+                <div class="reviews">
+                    <h3>What Our Customers Say</h3>
+                    <div class="review-cards">
+                        <div class="review-card">
+                            <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                            <p>"Best homestyle cooking in the city! Their daily specials are incredible."</p>
+                            <span class="review-author">- Sarah M.</span>
+                        </div>
+                        <div class="review-card">
+                            <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                            <p>"Love the frozen meal packages - perfect for busy families. Quality is outstanding!"</p>
+                            <span class="review-author">- Michael T.</span>
+                        </div>
+                        <div class="review-card">
+                            <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                            <p>"The penne with meatballs is my weekly treat. Absolutely delicious!"</p>
+                            <span class="review-author">- Jennifer L.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="menu-header">
+                <h2>Our Menu</h2>
+                <p class="menu-subtitle">Fresh homemade comfort food made daily</p>
+            </div>
+
+            <!-- Menu Tab Navigation -->
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-tab="breakfast-lunch">
+                    <span class="tab-icon">🥞</span>
+                    Breakfast & Lunch
+                </button>
+                <button class="menu-tab" data-tab="daily-specials">
+                    <span class="tab-icon">🍽️</span>
+                    Daily Specials
+                </button>
+                <button class="menu-tab" data-tab="desserts">
+                    <span class="tab-icon">🧁</span>
+                    Desserts
+                </button>
+                <button class="menu-tab" data-tab="frozen-meals">
+                    <span class="tab-icon">❄️</span>
+                    Frozen Meals
+                </button>
+            </div>
+
+            <!-- Menu Content Sections -->
+            <div class="menu-content">
+                <!-- Breakfast & Lunch Content (Default Active) -->
+                <div class="menu-section active" id="breakfast-lunch">
+                    <div class="section-header">
+                        <div class="category-icon">🥞</div>
+                        <h3>Breakfast & Lunch</h3>
+                        <p class="category-description">Served fresh daily</p>
+                    </div>
+                    <div class="menu-section-split">
+                        <div class="breakfast-section">
+                            <h4>Breakfast</h4>
+                            <div class="menu-items">
+                                <div class="menu-item">
+                                    <h5>Classic Pancakes</h5>
+                                    <p>Fluffy buttermilk pancakes with real maple syrup</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>Farm Fresh Eggs</h5>
+                                    <p>Any style with hash browns and toast</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>French Toast</h5>
+                                    <p>Thick-cut with cinnamon and vanilla</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lunch-section">
+                            <h4>Lunch</h4>
+                            <div class="menu-items">
+                                <div class="menu-item">
+                                    <h5>Homemade Soups</h5>
+                                    <p>Daily fresh soups with crusty bread</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>Italian Sausage</h5>
+                                    <p>With sautéed peppers</p>
+                                </div>
+                                <div class="menu-item">
+                                    <h5>Meat Cheese Lasagna</h5>
+                                    <p>With garlic cheese bun</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Daily Specials Content -->
+                <div class="menu-section" id="daily-specials">
+                    <div class="section-header">
+                        <div class="category-icon">🍽️</div>
+                        <h3>Daily Specials</h3>
+                        <p class="category-description">Fresh daily specials made with homestyle cooking</p>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <h4>Slow Roasted Porketta</h4>
+                            <p>With gravy, scalloped potatoes & mixed vegetables, soup & tossed salad</p>
+                            <div class="pricing">
+                                <span class="price">Personal: $15.95</span>
+                                <span class="price">Dinner for Two: $28.95</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <h4>Rosemary Chicken</h4>
+                            <p>With mashed potatoes, gravy & mixed vegetables, soup & tossed salad</p>
+                            <div class="pricing">
+                                <span class="price">Personal: $15.95</span>
+                                <span class="price">Dinner for Two: $28.95</span>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <h4>Chicken Parmesan</h4>
+                            <p>With penne & sauce, grilled garlic cheese bun, soup & tossed salad</p>
+                            <div class="pricing">
+                                <span class="price">Personal: $15.95</span>
+                                <span class="price">Dinner for Two: $28.95</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="weekly-special">
+                        <h4>Wednesday/Thursday/Friday Special</h4>
+                        <h5>Penne with Homestyle Meatballs</h5>
+                        <div class="pricing">
+                            <span class="price">Personal: $10.50</span>
+                            <span class="price">Family: $17.95</span>
+                            <span class="price special">Deluxe: $35.00</span>
+                        </div>
+                        <p class="special-note">Deluxe includes large salad, garlic bread & 4 desserts</p>
+                    </div>
+                </div>
+
+                <!-- Desserts Content -->
+                <div class="menu-section" id="desserts">
+                    <div class="section-header">
+                        <div class="category-icon">🧁</div>
+                        <h3>Homemade Desserts</h3>
+                        <p class="category-description">Made fresh daily in our kitchen</p>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <h4>Fresh Daily Pies</h4>
+                            <p>Ask about today's selection</p>
+                        </div>
+                        <div class="menu-item">
+                            <h4>Cookies</h4>
+                            <p>Variety of fresh baked cookies</p>
+                        </div>
+                        <div class="menu-item">
+                            <h4>Seasonal Desserts</h4>
+                            <p>Chef's special seasonal treats</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frozen Meals Content -->
+                <div class="menu-section" id="frozen-meals">
+                    <div class="section-header">
+                        <div class="category-icon">❄️</div>
+                        <h3>Frozen Take-Home Meals</h3>
+                        <p class="category-description">Homemade meals ready to heat at home</p>
+                    </div>
+                    
+                    <div class="freezer-package">
+                        <h4>Complete Freezer Package - $245.00</h4>
+                        <p class="package-description">Individual portions cooked, labeled, frozen and delivered</p>
+                        <div class="package-includes">
+                            <h5>Includes:</h5>
+                            <ul>
+                                <li>4 Chicken Pot Pies</li>
+                                <li>4 Meat Pies</li>
+                                <li>4 Shepherd's Pies</li>
+                                <li>4 Ham & Cheese Quiche</li>
+                                <li>2 Meat & Cheese Lasagna</li>
+                                <li>4 Perogies w/ Bacon & Onion</li>
+                                <li>2 Homemade Soups</li>
+                                <li>2 Chili</li>
+                            </ul>
+                        </div>
+                        <p class="advance-notice">Please place orders one week in advance</p>
+                    </div>
+
+                    <div class="individual-items">
+                        <h4>Individual Items Available</h4>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <h5>Meat Pies</h5>
+                                <p>Traditional homemade meat pies</p>
+                            </div>
+                            <div class="menu-item">
+                                <h5>Chicken Pot Pies</h5>
+                                <p>Hearty chicken with vegetables</p>
+                            </div>
+                            <div class="menu-item">
+                                <h5>Homemade Lasagna</h5>
+                                <p>Family-sized portions available</p>
+                            </div>
+                            <div class="menu-item">
+                                <h5>Fresh Pasta & Sauce</h5>
+                                <p>Made fresh, ready to cook</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-cta">
+                <h3>Ready to Order?</h3>
+                <p>Call us for fast curbside pickup</p>
+                <a href="tel:(705) 256-8804" class="btn btn--primary btn--lg">
+                    <span class="btn-icon">📞</span>
+                    Call (705) 256-8804
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hours & Location Section -->
+    <section id="hours" class="hours-location">
+        <div class="container">
+            <h2>Hours & Location</h2>
+            <div class="hours-location-grid">
+                <div class="hours-card">
+                    <h3>Hours of Operation</h3>
+                    <div class="hours-list">
+                        <div class="hours-item">
+                            <span class="day">Monday</span>
+                            <span class="time closed">CLOSED</span>
+                        </div>
+                        <div class="hours-item">
+                            <span class="day">Tuesday</span>
+                            <span class="time">9:00 AM - 4:00 PM</span>
+                        </div>
+                        <div class="hours-item">
+                            <span class="day">Wednesday</span>
+                            <span class="time">9:00 AM - 4:00 PM</span>
+                        </div>
+                        <div class="hours-item">
+                            <span class="day">Thursday</span>
+                            <span class="time">9:00 AM - 4:00 PM</span>
+                        </div>
+                        <div class="hours-item">
+                            <span class="day">Friday</span>
+                            <span class="time">9:00 AM - 4:00 PM</span>
+                        </div>
+                        <div class="hours-item">
+                            <span class="day">Saturday</span>
+                            <span class="time">9:00 AM - 4:00 PM</span>
+                        </div>
+                        <div class="hours-item">
+                            <span class="day">Sunday</span>
+                            <span class="time">9:00 AM - 2:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="location-card">
+                    <h3>Visit or Call</h3>
+                    <div class="location-info">
+                        <div class="info-item">
+                            <h4>📍 Location</h4>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2744.9730324981!2d-84.32130128882629!3d46.528435470990814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d3638286b3cb037%3A0x5b28fb0fb4d72ff6!2s96%20Great%20Northern%20Rd%2C%20Sault%20Ste.%20Marie%2C%20ON%20P6B%204Y5!5e0!3m2!1sen!2sca!4v1758488051885!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="info-item">
+                            <h4>📞 Phone</h4>
+                            <p><a href="tel:(705) 256-8804" class="phone-link">(705) 256-8804</a></p>
+                        </div>
+                        <div class="info-item">
+                            <h4>🚗 Services</h4>
+                            <p>Curbside pickup available<br>Cash preferred payment method</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <h3>Absolutely Delicious</h3>
+                    <p>96 Great Northern Rd, Sault Ste Marie, ON</p>
+                    <p><strong>(705) 256-8804</strong></p>
+                </div>
+                <div class="footer-hours">
+                    <strong>Quick Hours</strong>
+                    <p>Mon: CLOSED<br>
+                    Tue-Sat: 9AM-4PM<br>
+                    Sun: 9AM-2PM</p>
+                    <p><em>Curbside pickup available</em></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Absolutely Delicious. Homemade comfort food serving Sault Ste Marie.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
